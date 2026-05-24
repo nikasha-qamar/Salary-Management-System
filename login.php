@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($username === 'admin' && $password === 'uTJn3iuWPbFY ') {
         $_SESSION['logged_in'] = true;
-        header('Location: index.html');
+        header('Location: index.php');
         exit();
     } else {
         $error = true;
