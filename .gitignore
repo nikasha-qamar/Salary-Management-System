@@ -1,0 +1,13 @@
+# Database credentials
+config.php
+
+# macOS
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+# PHP dependencies
+vendor/
+composer.lock

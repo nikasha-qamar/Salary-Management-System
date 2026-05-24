@@ -1,0 +1,19 @@
+CREATE DATABASE SMS1;
+
+USE SMS1;
+
+CREATE TABLE SALARY (
+    emp_id       VARCHAR(10)  PRIMARY KEY,
+    emp_name     VARCHAR(50),
+    department   VARCHAR(50),
+    basic_salary DECIMAL(10,2),
+    da           DECIMAL(10,2),
+    hra          DECIMAL(10,2),
+    pf           DECIMAL(10,2),
+    medical      DECIMAL(10,2),
+    tds          DECIMAL(10,2),
+    gross        DECIMAL(10,2),
+    net          DECIMAL(10,2),
+    month        VARCHAR(20),
+    year         YEAR
+);
