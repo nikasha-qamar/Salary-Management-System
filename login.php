@@ -1,11 +1,11 @@
 <?php
-session_start();
+    require_once 'config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = trim($_POST['username']);
     $password = trim($_POST['password']);
 
-    if ($username === 'admin' && $password === 'uTJn3iuWPbFY ') {
+    if ($username === 'admin' && $password === 'uTJn3iuWPbFY') {
         $_SESSION['logged_in'] = true;
         header('Location: index.php');
         exit();
